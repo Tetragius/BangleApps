@@ -1259,6 +1259,20 @@
       {"name":"pipboy.img","url":"app-icon.js","evaluate":true}
     ]
   },
+  {
+    "id": "raiffclock",
+    "name": "RaifClock",
+    "icon": "app.png",
+    "version": "0.04",
+    "description": "Raiffeisen themed clock",
+    "tags": "clock,bno2",
+    "type":"clock",
+    "allow_emulator":true,
+    "storage": [
+      {"name":"raiffclock.app.js","url":"app.js"},
+      {"name":"raiffclock.img","url":"app-icon.js","evaluate":true}
+    ]
+  },
   { "id": "torch",
     "name": "Torch",
     "shortName":"Torch",
