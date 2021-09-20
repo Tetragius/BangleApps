@@ -22,6 +22,7 @@ function drawClock() {
   var time = (("0" + h).substr(-2) + ("0" + m).substr(-2)).split('');
 
   g.setFont("8x16", 4);
+  g.setColor("#fff");
   g.setFontAlign(0, 0, 0);
   
   g.drawString(time[0], 48, 140);
@@ -36,7 +37,7 @@ function drawClock() {
 }
 
 function drawAll() {
-  g.clearRect(0, 0, 240, 240);
+  g.clearRect(0, 30, 240, 240);
   drawLogo();
   drawWindow();
   drawClock();
