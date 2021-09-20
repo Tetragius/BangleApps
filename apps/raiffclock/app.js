@@ -22,16 +22,18 @@ function drawClock() {
   var time = (("0" + h).substr(-2) + ("0" + m).substr(-2)).split('');
 
   g.setFont("8x16", 4);
-  g.setColor("#fff");
   g.setFontAlign(0, 0, 0);
   
+  
+  g.setColor("#fff");
   g.drawString(time[0], 48, 140);
   g.drawString(time[1], 96, 140);
   g.drawString(time[2], 154, 140);
   g.drawString(time[3], 200, 140);
   
-  g.setFont("8x16", 2);  ;
+  g.setFont("8x16", 2);
   g.setFontAlign(-1, -1, 0);
+  g.setColor("#fff");
   g.drawString('Raiffeisen', 52, 190);
 
 }
